@@ -1,0 +1,8 @@
+:root{--bg:#fbf8f1;--ink:#2b2a27;--muted:#6b675f;--accent:#d9472b}
+@media (prefers-color-scheme:dark){:root{--bg:#1d1c1a;--ink:#ece8df;--muted:#a8a296;--accent:#ff7a5c}}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 Georgia,serif}
+main{max-width:680px;margin:0 auto;padding:40px 16px}
+h1{font-size:28px;margin:.2em 0}h2{font-size:19px;margin-top:1.6em}
+a{color:var(--accent)}small,.muted{color:var(--muted)}
+header{display:flex;gap:16px;align-items:center}header img{width:72px;height:72px;border-radius:50%}
+nav{margin:24px 0;display:flex;gap:16px;flex-wrap:wrap}
